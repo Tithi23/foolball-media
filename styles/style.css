@@ -127,4 +127,22 @@ body{
 /* .title-para{
     font-size: 16px;
    color: #6C6C6C;
-} 
+}  */
+/* footer style icon */
+footer{
+    padding: 300px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: */
+}
+.football-logo{
+    margin-bottom: 20px;
+}
+.logo-media{
+    margin-bottom: 20px;
+}
+.logo-media img{
+    width: 62px;
+    margin: 0px 14px;
+}
