@@ -4,8 +4,9 @@
 /* styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #f3f1ff;
+    background-color: #FFFFFF;
 }
+
 /* banner styles */
 .football-container{
     background-color: #2D25A0;
@@ -51,15 +52,37 @@ body{
 }
 
 /* players styles */
-
-/* .players{
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.players{
     display: grid;
+    margin-top: 70px;
     grid-template-columns: repeat(3, 1fr);
 }
-.player, .players-board img{
+.player{
+       padding: 30px;
+       margin: 30px;
+       box-shadow: 20px 20px 40px gainsboro; 
+}
+.players-board{
+    width: 300px;
+    height: 256px;
+}
+.players-board img{
       width: 300px;
       height: 256px;
 }
 .players-info{
-
-} */
+    width: 300px;
+    height: 195px; 
+    font-size: 16px;
+    color: #6C6C6C;
+    align-items: center;
+}
+.players-name{
+    font-size: 28px;
+    color: #18191F;
+}
